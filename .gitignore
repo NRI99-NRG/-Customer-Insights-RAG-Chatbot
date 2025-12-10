@@ -1,0 +1,78 @@
+# -----------------------------
+# PYTHON COMPILED / CACHE FILES
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# -----------------------------
+# VIRTUAL ENVIRONMENT
+# -----------------------------
+venv/
+ENV/
+env/
+.venv/
+
+# -----------------------------
+# ENVIRONMENT VARIABLES
+# -----------------------------
+.env
+*.env
+
+# -----------------------------
+# OPERATING SYSTEM / EDITOR FILES
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+
+# -----------------------------
+# STREAMLIT CACHE
+# -----------------------------
+.streamlit/
+
+# -----------------------------
+# FAISS VECTORSTORE (LARGE FILES)
+# Do NOT upload FAISS index files to GitHub.
+# Only keep the folder by using a .gitkeep later.
+# -----------------------------
+backend/store/*
+!backend/store/.gitkeep
+
+# -----------------------------
+# DATA FILES
+# All CSVs in backend/data should NOT be pushed.
+# -----------------------------
+backend/data/*.csv
+backend/data/*.xlsx
+backend/data/*.json
+backend/data/*.parquet
+
+# If you WANT to keep cleaned CSVs, remove the above rule.
+
+# -----------------------------
+# OLLAMA (LOCAL MODELS)
+# Never push Ollama model files
+# -----------------------------
+~/.ollama/
+ollama/
+
+# -----------------------------
+# LOG FILES
+# -----------------------------
+*.log
+
+# -----------------------------
+# PYTHON BUILD ARTIFACTS
+# -----------------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------------
+# OPTIONAL: IGNORE TEST SCRIPTS
+# (If you want to exclude them)
+# backend/utils/test_embeddings.py
+# -----------------------------
